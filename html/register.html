@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <div id="header">
+
+        <span id="headtext0"> <span id="text-head2">TRAVELIX </span><img src="../images/logo.png" alt=""><span
+                id="text-head"> For everywhere you want to go</span></span>
+
+    </div>
+    <div class="formlog_header">
+
+        <form action="" id="loginbg">
+            <h1 class="form-heading">--ĐĂNG KÝ--</h1>
+            <div class="form-group">
+
+                <input type="text" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+
+                <input type="text " name="dangnhap" id="tendn" placeholder="User name">
+            </div>
+            <div class="form-group">
+
+                <input type="password" id="mk1" placeholder="Enter password ">
+            </div>
+            <div class="form-group">
+
+                <input type="password" id="mk2" placeholder="Enter the password">
+            </div>
+            <!-- <button  type="button"  value="Đăng ký" id="dangky" onclick="dangky()" > -->
+            <button type="" id="reg">Đăng ký</button>
+            <p id="kq"></p>
+            <label for="">Đã có <a href="./login.html">Tài khoản</a> </label>
+
+        </form>
+
+    </div>
+    <script>
+        let btnLogin = document.getElementById('reg');
+        btnLogin.addEventListener('click', () => {
+            var email = document.getElementById('email').value;
+            var rex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if (email == '') {
+                window.alert("vui lòng nhập địa chỉ email");
+                return false;
+            }
+            if (!rex.test(email)) {
+
+                window.alert("Email không hợp lệ !");
+            }
+            var tendangnhap = document.getElementById('tendn').value;
+            var rex1 = /^[a-zA-Z0-9_]{6,}$/;
+            if (tendangnhap == '') {
+                window.alert('Vui lòng nhập tên đăng nhập');
+                return false;
+            }
+            if (!rex1.test(tendangnhap)) {
+                window.alert('Tên đăng nhập càn tối thiểu 6 ký tự');
+            }
+            var mk1 = document.getElementById('mk1').value;
+            var mk2 = document.getElementById('mk2').value;
+            if (mk1 != mk2) {
+                window.alert('Hai mật khẩu không khớp nhau');
+            }
+        })
+
+
+    </script>
+
+
+</body>
+
+</html>
