@@ -38,7 +38,7 @@
             <!-- <button  type="button"  value="Đăng ký" id="dangky" onclick="dangky()" > -->
             <button type="" id="reg">Đăng ký</button>
             <p id="kq"></p>
-            <label for="">Đã có <a href="./login.html">Tài khoản</a> </label>
+            <label for="">Đã có <a href="../html/login.html">Tài khoản</a> </label>
 
         </form>
 
@@ -57,7 +57,7 @@
                 window.alert("Email không hợp lệ !");
             }
             var tendangnhap = document.getElementById('tendn').value;
-            var rex1 = /^[a-zA-Z0-9_]{6,}$/;
+            var rex1 = /^[a-zA-Z0-9_]{8,}$/;
             if (tendangnhap == '') {
                 window.alert('Vui lòng nhập tên đăng nhập');
                 return false;
