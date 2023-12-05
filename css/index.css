@@ -10,7 +10,7 @@ input{
 #header{
 	width: 100%;
 	height: 750px;
-	background-image: url("images/back.jpg");
+	background-image: url("../images/back.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -56,7 +56,7 @@ input{
 	line-height: 150px;
 }
 .h22{
-	with: 65%;
+	width: 65%;
 	height: 100%;
 	display: flex;
 	line-height: 140px;
@@ -143,7 +143,7 @@ input{
 .h41 ul li a{
 	text-decoration: none;
 	color: black;	
-	text-alig: center;
+	text-align: center;
 	display: block;
 }
 .h41 ul li:hover{
@@ -248,7 +248,7 @@ input{
 .offers_content11{
 	height: 100%;
 	width: 50%;
-	background-image: url("images/offer_1.jpg"); 
+	background-image: url("../images/offer_1.jpg"); 
 	background-position: center center;
 	margin-right: 30px;
 	flex: 1;
@@ -256,7 +256,7 @@ input{
 .offers_content13{
 	height: 100%;
 	width: 50%;
-	background-image: url("images/offer_2.jpg"); 
+	background-image: url("../images/offer_2.jpg"); 
 	background-position: center center;
 	margin-right: 30px;
 	flex: 1;
@@ -264,7 +264,7 @@ input{
 .offers_content14{
 	height: 100%;
 	width: 50%;
-	background-image: url("images/offer_3.jpg"); 
+	background-image: url("../images/offer_3.jpg"); 
 	background-position: center center;
 	margin-right: 30px;
 	flex: 1;
@@ -272,7 +272,7 @@ input{
 .offers_content15{
 	height: 100%;
 	width: 50%;
-	background-image: url("images/offer_4.jpg"); 
+	background-image: url("../images/offer_4.jpg"); 
 	background-position: center center;
 	margin-right: 30px;
 	flex: 1;
@@ -376,7 +376,7 @@ input{
 /*	background-color: #929191;*/
 }
 .test_content1{
-	background-image: url("images/test_1.jpg");
+	background-image: url("../images/test_1.jpg");
 	background-size: cover;
 	width: 25%;
 	height: 480px;
@@ -384,7 +384,7 @@ input{
 	position: relative;
 }
 .test_content2{
-	background-image: url("images/test_2.jpg");
+	background-image: url("../images/test_2.jpg");
 	background-size: cover;
 	width: 25%;
 	height: 480px;
@@ -392,7 +392,7 @@ input{
 	position: relative;
 }
 .test_content3{
-	background-image: url("images/test_3.jpg");
+	background-image: url("../images/test_3.jpg");
 	background-size: cover;
 	width: 25%;
 	height: 480px;
@@ -509,7 +509,7 @@ input{
 .contact-img{
 	flex: 1;
 	width: 50%;
-	background-image: url("images/contact1.png");
+	background-image: url("../images/contact1.png");
 }
 .contact-container{
 	flex: 1;
